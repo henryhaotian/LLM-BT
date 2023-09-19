@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<root>
+		<BehaviorTree>
+			<Sequence text="IFTHENELSE">
+				<IsObjectOnDestination text="object_1,position_12"/>
+				<IsObjectOnDestination text="object_2,position_13"/>
+				<IsObjectOnDestination text="object_4,position_14"/>
+				<IsObjectOnDestination text="object_3,position_22"/>
+				<IsObjectOnDestination text="object_5,position_23"/>
+				<IsObjectOnDestination text="object_6,position_32"/>
+			</Sequence>
+		</BehaviorTree>
+	</root>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <BehaviorTree>
+        <Sequence text="IFTHENELSE">
+            <Fallback text="IFTHENELSE">
+                <IsObjectOnDestination text="object_1,position_12"/>
+                <Sequence text="IFTHENELSE">
+                    <Fallback text="IFTHENELSE"/>
+                    <Fallback text="IFTHENELSE">
+                        <IsObjectOnHand text="object_1"/>
+                        <Sequence text="IFTHENELSE">
+                            <IsHandEmpty text="object_1"/>
+                            <IsFind text="object_1"/>
+                            <IsPathToObject text="object_1"/>
+                            <Pick text="object_1"/>
+                        </Sequence>
+                    </Fallback>
+                    <IsFind text="position_12"/>
+                    <IsPathToDestination text="position_12"/>
+                    <Place text="position_12"/>
+                </Sequence>
+            </Fallback>
+            <Fallback text="IFTHENELSE">
+                <IsObjectOnDestination text="object_2,position_13"/>
+                <Sequence text="IFTHENELSE">
+                    <Fallback text="IFTHENELSE"/>
+                    <Fallback text="IFTHENELSE">
+                        <IsObjectOnHand text="object_2"/>
+                        <Sequence text="IFTHENELSE">
+                            <IsHandEmpty text="object_2"/>
+                            <IsFind text="object_2"/>
+                            <IsPathToObject text="object_2"/>
+                            <Pick text="object_2"/>
+                        </Sequence>
+                    </Fallback>
+                    <IsFind text="position_13"/>
+                    <IsPathToDestination text="position_13"/>
+                    <Place text="position_13"/>
+                </Sequence>
+            </Fallback>
+            <Fallback text="IFTHENELSE">
+                <IsObjectOnDestination text="object_4,position_14"/>
+                <Sequence text="IFTHENELSE">
+                    <Fallback text="IFTHENELSE"/>
+                    <Fallback text="IFTHENELSE">
+                        <IsObjectOnHand text="object_4"/>
+                        <Sequence text="IFTHENELSE">
+                            <IsHandEmpty text="object_4"/>
+                            <IsFind text="object_4"/>
+                            <IsPathToObject text="object_4"/>
+                            <Pick text="object_4"/>
+                        </Sequence>
+                    </Fallback>
+                    <IsFind text="position_14"/>
+                    <IsPathToDestination text="position_14"/>
+                    <Place text="position_14"/>
+                </Sequence>
+            </Fallback>
+            <Fallback text="IFTHENELSE">
+                <IsObjectOnDestination text="object_3,position_22"/>
+                <Sequence text="IFTHENELSE">
+                    <Fallback text="IFTHENELSE"/>
+                    <Fallback text="IFTHENELSE">
+                        <IsObjectOnHand text="object_3"/>
+                        <Sequence text="IFTHENELSE">
+                            <IsHandEmpty text="object_3"/>
+                            <IsFind text="object_3"/>
+                            <IsPathToObject text="object_3"/>
+                            <Pick text="object_3"/>
+                        </Sequence>
+                    </Fallback>
+                    <IsFind text="position_22"/>
+                    <IsPathToDestination text="position_22"/>
+                    <Place text="position_22"/>
+                </Sequence>
+            </Fallback>
+            <Fallback text="IFTHENELSE">
+                <IsObjectOnDestination text="object_5,position_23"/>
+                <Sequence text="IFTHENELSE">
+                    <Fallback text="IFTHENELSE"/>
+                    <Fallback text="IFTHENELSE">
+                        <IsObjectOnHand text="object_5"/>
+                        <Sequence text="IFTHENELSE">
+                            <IsHandEmpty text="object_5"/>
+                            <IsFind text="object_5"/>
+                            <IsPathToObject text="object_5"/>
+                            <Pick text="object_5"/>
+                        </Sequence>
+                    </Fallback>
+                    <IsFind text="position_23"/>
+                    <IsPathToDestination text="position_23"/>
+                    <Place text="position_23"/>
+                </Sequence>
+            </Fallback>
+            <Fallback text="IFTHENELSE">
+                <IsObjectOnDestination text="object_6,position_32"/>
+                <Sequence text="IFTHENELSE">
+                    <Fallback text="IFTHENELSE"/>
+                    <Fallback text="IFTHENELSE">
+                        <IsObjectOnHand text="object_6"/>
+                        <Sequence text="IFTHENELSE">
+                            <IsHandEmpty text="object_6"/>
+                            <IsFind text="object_6"/>
+                            <IsPathToObject text="object_6"/>
+                            <Pick text="object_6"/>
+                        </Sequence>
+                    </Fallback>
+                    <IsFind text="position_32"/>
+                    <IsPathToDestination text="position_32"/>
+                    <Place text="position_32"/>
+                </Sequence>
+            </Fallback>
+        </Sequence>
+    </BehaviorTree>
+</root>
