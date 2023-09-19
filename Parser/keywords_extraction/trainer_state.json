@@ -1,0 +1,40 @@
+{
+  "best_metric": 0.0008499164832755923,
+  "best_model_checkpoint": "cargo_sorting_model/checkpoint-468",
+  "epoch": 2.0,
+  "global_step": 468,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 1.0,
+      "eval_f1": 1.0,
+      "eval_loss": 0.001792970229871571,
+      "eval_precision": 1.0,
+      "eval_recall": 1.0,
+      "eval_runtime": 11.9568,
+      "eval_samples_per_second": 775.625,
+      "eval_steps_per_second": 12.127,
+      "step": 234
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 1.0,
+      "eval_f1": 1.0,
+      "eval_loss": 0.0008499164832755923,
+      "eval_precision": 1.0,
+      "eval_recall": 1.0,
+      "eval_runtime": 12.1483,
+      "eval_samples_per_second": 763.397,
+      "eval_steps_per_second": 11.936,
+      "step": 468
+    }
+  ],
+  "max_steps": 468,
+  "num_train_epochs": 2,
+  "total_flos": 296214543997440.0,
+  "trial_name": null,
+  "trial_params": null
+}
