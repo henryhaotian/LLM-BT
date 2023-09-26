@@ -15,8 +15,8 @@ The BTs-Update algorithm is developed based on https://btirai.github.io/youbot.
     &emsp;Open terminal:  
         &emsp;&emsp;go to V-REP directory  
         &emsp;&emsp;./vrep.sh  
-        &emsp;&emsp;File->Open Scene:
-        &emsp;&emsp;LLM/BT/LLN_BT_Scene.ttt
+        &emsp;&emsp;File->Open Scene:  
+        &emsp;&emsp;LLM/BT/LLN_BT_Scene.ttt  
         &emsp;&emsp;Press Play icon  
 5. Run Parser & BTs_Update:  
     &emsp;Open terminal:  
