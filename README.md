@@ -1,5 +1,8 @@
 # LLM-BT
-The BTs-Update algorithm is developed based on https://btirai.github.io/youbot.  
+This is the project repository for the paper:  
+LLM-BT: Performing Robotic Adaptive Tasks based on Large Language Models and Behavior Trees (ICRA2024)   
+The DOI of paper: https://doi.org/10.1109/ICRA57147.2024.10610183  
+The BTs-Update algorithm is developed based on https://btirai.github.io/youbot.   
 ## Run in Linux:  
 1. Install Dependencies:  
     &emsp;Open terminal:  
