@@ -30,7 +30,7 @@
 29. pick a red cargo
 30. I want to eat candy, take it to the desk
 
-Nomal 30 Cases:
+30 Medium Cases:
 1. I am hungry, take something on my desk
 2. give me the cookie
 3. bring all foods
@@ -62,7 +62,7 @@ Nomal 30 Cases:
 29. pick drinks
 30. I want to eat candy
 
-Hard 30 Cases:
+30 Hard Cases:
 1. I am hungry
 2. give me food
 3. come here
