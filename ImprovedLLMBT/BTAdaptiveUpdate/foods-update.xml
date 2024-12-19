@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <BehaviorTree>
+        <Sequence text="IFTHENELSE">
+            <Fallback text="IFTHENELSE">
+                <On text="cookie,table,desk"/>
+                <Sequence text="IFTHENELSE">
+                    <Fallback text="IFTHENELSE">
+                        <Hold text="cookie,table"/>
+                        <Sequence text="IFTHENELSE">
+                            <Fallback text="IFTHENELSE">
+                                <Approach text="cookie,table"/>
+                                <Sequence text="IFTHENELSE">
+                                    <HandEmpty text="cookie"/>
+                                    <Remove text="cookie,table,obstacle"/>
+                                </Sequence>
+                            </Fallback>
+                            <HandEmpty text="cookie,table"/>
+                            <Fallback text="IFTHENELSE">
+                                <Near text="cookie,table"/>
+                                <Sequence text="IFTHENELSE">
+                                    <ExistPath text="table"/>
+                                    <MoveTo text="table"/>
+                                </Sequence>
+                            </Fallback>
+                            <Approach text="cookie,table"/>
+                            <Pick text="cookie,table"/>
+                        </Sequence>
+                    </Fallback>
+                    <Fallback text="IFTHENELSE">
+                        <Near text="cookie,desk"/>
+                        <Sequence text="IFTHENELSE">
+                            <ExistPath text="desk"/>
+                            <MoveTo text="desk"/>
+                        </Sequence>
+                    </Fallback>
+                    <Approach text="cookie,desk"/>
+                    <Place text="cookie,table,desk"/>
+                </Sequence>
+            </Fallback>
+            <Fallback text="IFTHENELSE">
+                <On text="bread,table,desk"/>
+                <Sequence text="IFTHENELSE">
+                    <Fallback text="IFTHENELSE">
+                        <Hold text="bread,table"/>
+                        <Sequence text="IFTHENELSE">
+                            <HandEmpty text="bread,table"/>
+                            <Fallback text="IFTHENELSE">
+                                <Near text="bread,table"/>
+                                <Sequence text="IFTHENELSE">
+                                    <ExistPath text="table"/>
+                                    <MoveTo text="table"/>
+                                </Sequence>
+                            </Fallback>
+                            <Approach text="bread,table"/>
+                            <Pick text="bread,table"/>
+                        </Sequence>
+                    </Fallback>
+                    <Fallback text="IFTHENELSE">
+                        <Near text="bread,desk"/>
+                        <Sequence text="IFTHENELSE">
+                            <ExistPath text="desk"/>
+                            <MoveTo text="desk"/>
+                        </Sequence>
+                    </Fallback>
+                    <Approach text="bread,desk"/>
+                    <Place text="bread,table,desk"/>
+                </Sequence>
+            </Fallback>
+        </Sequence>
+    </BehaviorTree>
+</root>

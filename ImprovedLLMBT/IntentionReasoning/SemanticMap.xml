@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+   <table>
+      <x>-2.7751</x>
+      <y>2.2500</y>
+      <z>0.0274</z>
+      <obj>
+         <name>chocolate</name>
+      </obj>
+      <obj>
+         <name>bread</name>
+      </obj>
+      <obj>
+         <name>cookie</name>
+      </obj>
+      <obj>
+         <name>nut</name>
+      </obj>
+      <obj>
+         <name>candy</name>
+      </obj>
+   </table>
+   <bar>
+      <x>3.2749</x>
+      <y>-3.2750</y>
+      <z>0.0274</z>
+      <obj>
+         <name>coke</name>
+      </obj>
+      <obj>
+         <name>water</name>
+      </obj>
+      <obj>
+         <name>tea</name>
+      </obj>
+      <obj>
+         <name>milk</name>
+      </obj>
+      <obj>
+         <name>juice</name>
+      </obj>
+   </bar>
+   <shelf>
+      <x>-2.7001</x>
+      <y>-2.4750</y>
+      <z>0.0274</z>
+      <layer L=3>
+         <obj>
+            <name>yellow1</name>
+            <property>yellow cargo</property>
+         </obj>
+         <obj>
+            <name>yellow2</name>
+            <property>yellow cargo</property>
+         </obj>
+      </layer>
+      <layer L=2>
+         <obj>
+            <name>red1</name>
+            <property>red cargo</property>
+         </obj>
+         <obj>
+            <name>red2</name>
+            <property>red cargo</property>
+         </obj>
+         <obj>
+            <name>red3</name>
+            <property>red cargo</property>
+         </obj>
+         <obj>
+            <name>yellow3</name>
+            <property>yellow cargo</property>
+         </obj>
+         <obj>
+            <name>green2</name>
+            <property>green cargo</property>
+         </obj>
+      </layer>
+      <layer L=1>
+         <obj>
+            <name>green1</name>
+            <property>green cargo</property>
+         </obj>
+         <obj>
+            <name>green3</name>
+            <property>green cargo</property>
+         </obj>
+      </layer>
+   </shelf>
+   <desk>
+      <x>1.9748</x>
+      <y>1.6250</y>
+      <z>0.0274</z>
+   </desk>

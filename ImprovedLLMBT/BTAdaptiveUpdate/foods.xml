@@ -1,0 +1,10 @@
+<root>
+    <BehaviorTree>
+	<Sequence text="IFTHENELSE">
+	    <On text="cookie,table,desk"/>
+	    <On text="bread,table,desk"/>
+	</Sequence>
+    </BehaviorTree>
+</root>
+
+

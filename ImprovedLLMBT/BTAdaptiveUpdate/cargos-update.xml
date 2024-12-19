@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <BehaviorTree>
+        <Sequence text="IFTHENELSE">
+            <Fallback text="IFTHENELSE">
+                <On text="yellow_3,L2,L3"/>
+                <Sequence text="IFTHENELSE">
+                    <Fallback text="IFTHENELSE">
+                        <Hold text="yellow_3,L2"/>
+                        <Sequence text="IFTHENELSE">
+                            <HandEmpty text="yellow_3,L2"/>
+                            <Near text="yellow_3,L2"/>
+                            <Approach text="yellow_3,L2"/>
+                            <Pick text="yellow_3,L2"/>
+                        </Sequence>
+                    </Fallback>
+                    <Near text="yellow_3,L3"/>
+                    <Approach text="yellow_3,L3"/>
+                    <Place text="yellow_3,L2,L3"/>
+                </Sequence>
+            </Fallback>
+            <Fallback text="IFTHENELSE">
+                <On text="yellow_1,L2,L3"/>
+                <Sequence text="IFTHENELSE">
+                    <Fallback text="IFTHENELSE">
+                        <Hold text="yellow_1,L2"/>
+                        <Sequence text="IFTHENELSE">
+                            <HandEmpty text="yellow_1,L2"/>
+                            <Near text="yellow_1,L2"/>
+                            <Approach text="yellow_1,L2"/>
+                            <Pick text="yellow_1,L2"/>
+                        </Sequence>
+                    </Fallback>
+                    <Near text="yellow_1,L3"/>
+                    <Approach text="yellow_1,L3"/>
+                    <Place text="yellow_1,L2,L3"/>
+                </Sequence>
+            </Fallback>
+            <Fallback text="IFTHENELSE">
+                <On text="green_3,L2,L1"/>
+                <Sequence text="IFTHENELSE">
+                    <Fallback text="IFTHENELSE">
+                        <Hold text="green_3,L2"/>
+                        <Sequence text="IFTHENELSE">
+                            <HandEmpty text="green_3,L2"/>
+                            <Fallback text="IFTHENELSE">
+                                <Near text="green_3,L2"/>
+                                <Sequence text="IFTHENELSE">
+                                    <ExistPath text="L2"/>
+                                    <MoveTo text="L2"/>
+                                </Sequence>
+                            </Fallback>
+                            <Fallback text="IFTHENELSE">
+                                <Approach text="green_3,L2"/>
+                                <Sequence text="IFTHENELSE">
+                                    <HandEmpty text="green_3"/>
+                                    <Remove text="green_3,L2,obstacle"/>
+                                </Sequence>
+                            </Fallback>
+                            <Pick text="green_3,L2"/>
+                        </Sequence>
+                    </Fallback>
+                    <Near text="green_3,L1"/>
+                    <Approach text="green_3,L1"/>
+                    <Place text="green_3,L2,L1"/>
+                </Sequence>
+            </Fallback>
+        </Sequence>
+    </BehaviorTree>
+</root>

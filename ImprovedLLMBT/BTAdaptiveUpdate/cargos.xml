@@ -1,0 +1,11 @@
+<root>
+    <BehaviorTree>
+	<Sequence text="IFTHENELSE">
+	    <On text="green_3,L2,L1"/>
+	    <On text="yellow_1,L2,L3"/>
+	    <On text="yellow_3,L2,L3"/>
+	</Sequence>
+    </BehaviorTree>
+</root>
+
+

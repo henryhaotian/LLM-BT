@@ -1,0 +1,28 @@
+Here are some examples:
+1. input: Go to the bar
+   output: Near(bar)
+   note: the goal is the robot near the bar.
+
+2. input: I want to eat chocolate, take it on the desk
+   output: (chocolate,table)On(desk)
+   note: the goal is the chocolate from table on the desk.
+
+3. input: I am thirsty, could you give me some drink to me, i am on the desk
+   output: ( , )On(desk)
+   note: if the information is unclear or abstract, you can leave it blank.
+
+4. input: I want to drink water
+   output: (water,bar)On( )
+   note: if the information is unclear or abstract, you can leave it blank.
+
+5. input: Place all yellow cargos on the first layer
+   output: (yellow3,L2)On(L1)
+   note: yellow1 and yellow2 are already on L1, no need to operate them. just operate yellow3.
+
+6. input: grasp a bottle of tea
+   output: hold(tea,bar)
+   note: the goal is grasp the tea.
+
+7. input: put two red cargos on my desk
+   output: (red1,L2)On(desk),(red2,L2)On(desk)
+   note: the goal is grasp the tea.

@@ -1,0 +1,95 @@
+30 Easy Cases:
+1. go to the shelf
+2. bring all foods to the desk 
+3. bring two red cargos to the table
+4. come here, i am near the desk
+5  please bring me a box of cookie to the desk.
+6. take all yellow cargos on the second floor
+7. please move to the bar 
+8. bring the coke to the desk
+9. take coke,juice and milk to the table
+10. take juice and coke on my desk
+11. pick a bottle of water
+12. put two green cargos on my desk
+13. give me a bottle of juice,i am near the desk
+14. put nut,candy and cookie on the bar
+15. go ahead to the table
+16. take milk and tea to my desk
+17. give me bread, nut and coke, i am near the desk
+18. grasp the bread
+19. please put all red cargos on the first layer
+20. put all green cargos on the third layer
+21. pick a yellow cargo
+22. take the chocolate and coke to the desk
+23. pick a box of candy
+24. bring two yellow cargos on the table
+25. I want to drink tea, take it on the desk
+26. please put a red cargo onto the bar
+27. bring the nut on the bar
+28. take all yellow cargos on the table
+29. pick a red cargo
+30. I want to eat candy, take it to the desk
+
+Nomal 30 Cases:
+1. I am hungry, take something on my desk
+2. give me the cookie
+3. bring all foods
+4. bring two red cargos
+5. please bring me a box of cookie 
+6. take all yellow cargos
+7. go to the bar and give me a bottle of coke 
+8. bring the coke
+9. take coke,juice and milk
+10. take juice and coke
+11. a bottle of water
+12. put two green cargos
+13. give me a bottle of juice
+14. put nut,candy and cookie
+15. I am thirsty, take something on my desk
+16. take milk and tea
+17. give me bread, nut and coke
+18. grasp something
+19. please put all red cargos
+20. put all green cargos
+21. pick an object
+22. take the chocolate and coke
+23. pick a kind of food
+24. bring two yellow cargos
+25. I want to drink tea
+26. please put a red cargo
+27. bring the nut
+28. take all yellow cargos
+29. pick drinks
+30. I want to eat candy
+
+Hard 30 Cases:
+1. I am hungry
+2. give me food
+3. come here
+4. bring cargos
+5. please bring me a kind of food 
+6. Sort cargos into different layers according to color
+7. give me something to drink
+8. go there
+9. take food and drink
+10. put the same color cargos on the same layer
+11. a bottle of drink
+12. put cargos
+13. give me drink
+14. arrange cargos according to their color
+15. I am thirsty, take something
+16. take two kind of drinks
+17. give me a food and a drink
+18. grasp something
+19. please take cargos
+20. arrange cargos
+21. pick an object
+22. clear the first layer
+23. pick a kind of food
+24. bring me two cargos
+25. I want to drink
+26. please put a cargo
+27. bring food,drink and cargo
+28. take drink and cargo
+29. pick drinks
+30. I want to eat

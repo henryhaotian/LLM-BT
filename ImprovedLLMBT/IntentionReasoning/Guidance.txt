@@ -1,0 +1,46 @@
+case 1:
+type: On, param_1: NULL, param_2: table, param_3: FULL
+guiding text: You can ask the user questions based on the missing information.
+For example, do you want to eat xxx? (the specific object needs to be selected based on the scene information). Please enter the question directly.
+
+case 2:
+type: On, param_1: FULL, param_2: FULL, param_3: NULL
+guiding text: You can ask the user questions based on the missing information.
+For example, Where do you want to put, xxx? (the specific object needs to be selected based on the scene information). Please enter the question directly.
+
+case 3:
+type: Near, param_1: NULL
+guiding text: Where to go? (the specific object needs to be selected based on the scene information). Please enter the question directly.
+
+case 4:
+type: On, param_1: NULL, param_2: NULL, param_3: FULL
+guiding text: You can ask the user questions based on the missing information.
+For example, do you want to eat or drink？Please enter the question directly.
+
+case 5:
+type: Hold, param_1: NULL, param_2: NULL
+guiding text: What object do you want to grasp? (the specific object needs to be selected based on the scene information). Please enter the question directly.
+
+case 6:
+type: On, param_1: NULL, param_2: NULL, param_3: NULL
+guiding text: do you want to eat or drink? Please enter the question directly.
+
+case 7:
+type: On, param_1: NULL, param_2: bar, param_3: NULL
+guiding text: You can ask the user questions based on the missing information.
+For example, do you want to drink xxx? (the specific object needs to be selected based on the scene information). Please enter the question directly.
+
+case 8:
+type: On, param_1: NULL, param_2: shelf, param_3: NULL
+guiding text: You can ask the user questions based on the missing information.
+For example, do you want to a cargo? (the specific object needs to be selected based on the scene information). Please enter the question directly.
+
+case 9:
+type: On, param_1: NULL, param_2: L1/L2/L3, param_3: NULL
+guiding text: You can ask the user questions based on the missing information.
+For example, do you want to a cargo? (the specific object needs to be selected based on the scene information). Please enter the question directly.
+
+case 10:
+type: On, param_1: NULL, param_2: table, param_3: NULL; type: On, param_1: NULL, param_2: bar, param_3: NULL
+guiding text: You can ask the user questions based on the missing information.
+For example, what drinks and food do you want? We have xxx (the specific object needs to be selected based on the scene information). Please enter the question directly.
