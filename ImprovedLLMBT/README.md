@@ -2,6 +2,7 @@
 First, set the contents of Demonstrations.txt, Prompts.txt, and SemanticMap.xml as the context of your selected LLM (such as ChatGPT4).  
 A quick way is to copy these contents directly to the LLM.  
 Second, input the instructions in Case.txt to the LLM.  
+Then, the LLM will generate goal conditions in the specified format.  
 If the instructions are incomplete, refer to the cases in Guidance.txt to guide LLM to ask questions to the user.  
 ## Run BTAdaptiveUpdate in Linux:  
 The BTAdaptiveUpdate algorithm is developed based on https://btirai.github.io/youbot.  
